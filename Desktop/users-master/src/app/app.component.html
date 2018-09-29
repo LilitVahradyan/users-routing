@@ -1,0 +1,8 @@
+
+<app-header [userData]="userList"></app-header> 
+<app-search></app-search>
+<div *ngFor="let user of userList">
+   <app-user-card [userData]="user"> </app-user-card>
+
+   
+</div>

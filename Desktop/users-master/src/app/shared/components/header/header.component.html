@@ -1,0 +1,8 @@
+<div class="header">
+	<img src="./assets/logo.jpg/" class="logo">
+	<h2 class="menu">My Syte </h2>
+	<input type="text" placeholder="Search" class="text" (keyup)=" findUserByName($event)"/>
+	<div *ngFor="let item of users" >
+		<p >{{item.name}} {{item.surname}}</p>
+	</div>
+</div>
