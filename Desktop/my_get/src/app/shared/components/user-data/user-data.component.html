@@ -1,0 +1,33 @@
+
+ <div *ngIf="userList" class="users">
+  <h2>User #{{userList.id}} </h2>
+  <ul> User
+    <li> 
+      Name:{{userList.name}}
+    </li>
+     <li>Username: {{userList.username}} </li>
+    <li>Email: {{userList.email}}</li>
+    <li>Phone: {{userList.phone}}</li>
+    <li>Website: {{userList.website}}</li> 
+  </ul>
+  <ul>User Address
+    <li>Street: {{userList.address.street}}</li>
+    <li>Suite: {{userList.address.suite}}</li>
+    <li>City: {{userList.address.city}}</li>
+    <li>Zipcode: {{userList.address.zipcode}}</li>
+    
+  </ul>
+  <ul>Geo
+    <li>Lat: {{userList.address.geo.lat}}</li>
+    <li>Lng: {{userList.address.geo.lng}}</li>
+  </ul>
+  <ul>Company
+    <li>Name: {{userList.company.name}}</li>
+    <li>CatchPhrase: {{userList.company.catchPhrase}}</li>
+    <li>Bs: {{userList.company.bs}}</li>
+  </ul>
+ 
+</div> 
+
+
+

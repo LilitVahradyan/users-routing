@@ -1,0 +1,9 @@
+.user{
+	text-align: center;	
+}
+.users{
+	width: 300px;
+	height:80px;
+	border:1px solid black;
+	margin-top: 10px
+}

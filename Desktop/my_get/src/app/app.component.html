@@ -1,0 +1,21 @@
+
+<div class="userData"> 
+    <div class="users">
+        <app-user-list *ngFor="let user of users" [userInformation]="user" (userId)="getuserId($event)" ></app-user-list>
+    </div>
+    <div>
+        <app-user-data [userList]="user"></app-user-data>
+    </div>
+</div>
+
+
+    
+
+
+
+
+
+ 
+ 
+ 
+
