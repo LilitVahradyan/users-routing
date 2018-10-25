@@ -1,0 +1,26 @@
+.container{
+	width: 300px;
+	height: 180px;
+	border:2px solid #007a99 ;
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+	border-radius: 10px;
+	background-color: #80dfff
+
+}
+.list{
+	list-style-type: none
+}
+.id{
+	font-weight: bold;
+	font-size: 20px
+}
+.btn{
+	margin-left: 30px;
+	background-color: #007a99;
+	font-size: 15px;
+	border-radius: 5px;
+	border: 1px solid #007a99;
+	text-decoration: none
+}

@@ -1,0 +1,17 @@
+.container{
+	height: 60px;
+	background-color: #4dd2ff;
+	padding-top: 10px
+}
+.link{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;	
+}
+.link a{
+	text-decoration: none;
+	color: #003d4d;
+	font-size: 20px;
+	 font-weight: bold
+
+}

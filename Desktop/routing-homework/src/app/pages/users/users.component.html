@@ -1,0 +1,20 @@
+<div *ngFor="let user of usersData" class="container">
+	<ul class="list">
+		<li class="id">User # {{user.id}}</li>
+		<li>Name: {{user.name}} {{user.username}}</li>
+		<li>Address: {{user.address.city}}</li>
+		<li>Email: {{user.email}}</li>
+		<li>Phone: {{user.phone}}</li>
+	</ul>
+	<a class="btn" [routerLink]="['/photo', user.id]">Show Album</a>
+	<a class="btn" [routerLink]="['/posts', user.id]">Show Posts</a>
+	
+</div>
+
+
+
+
+
+
+
+
