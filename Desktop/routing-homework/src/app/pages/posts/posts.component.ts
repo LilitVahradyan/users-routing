@@ -16,7 +16,7 @@ export class PostsComponent implements OnInit {
 
   constructor(private activeRoute: ActivatedRoute,
   	          private usersService: UsersService) { 
-  	this.postId = this.activeRoute.snapshot.params['id'];
+  	this.postId = Number(this.activeRoute.snapshot.params['id']);
   }
   
   ngOnInit() {
@@ -30,5 +30,7 @@ export class PostsComponent implements OnInit {
   }
 
 }
+
+
 
 

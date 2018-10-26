@@ -16,8 +16,7 @@ export class PhotosComponent implements OnInit {
   
   constructor(private activeRoute: ActivatedRoute,
   	          private usersService: UsersService) {
-  	this.photosId = this.activeRoute.snapshot.params['id'];
-    console.log(this.activeRoute.snapshot.params['id']);
+  	this.photosId =Number(this.activeRoute.snapshot.params['id']);
   }
 
   ngOnInit() {
